@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 700px;
+}
+.mainbody{
+    background-color: gray;
+    display: flex; 
+    flex-direction: column; 
+    box-sizing: border-box;
+    border: 2px solid white;
+    width: 500px;
+    height: 700px 
+}
+#wrapper{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+#head{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+#para{
+    font-size: 20px;
+    color: white;
+}
+.main{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    column-gap: 4px;
+}
+#guess{
+    font-size: 40px;
+    color: white;
+}
+#text1{
+    height: 30px;
+    width: 300px;
+}
+#submit1{
+    height: 40px;
+    width: 250px;
+}
+.footer{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+.para1,.para2{
+    color: white;
+    font-size: 18px;
+}
+#p1,#p2{
+    font-weight: 500;
+}
